@@ -331,3 +331,11 @@ body {
       width: 100%;
     }
   }
+
+    /* Animacion */
+    .animate{
+      transition: all 0.2s ease-in-out;
+      }
+      .animate:hover{
+      transform: scale(0.8);
+    }
