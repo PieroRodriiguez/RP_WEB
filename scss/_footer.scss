@@ -1,0 +1,14 @@
+/* FOOTER */
+footer {
+background: $footerColor;
+min-height: 100px;;
+    p{
+    color: $footerpColor;
+    text-align:center;
+    }
+}
+#iconos  i {
+font-size: 26px;
+padding: 0 8px;
+color: $footerpColor;
+}

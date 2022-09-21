@@ -1,0 +1,21 @@
+/* MENU */
+.bg-rp{
+    background-color: $indexColor;
+    }
+    .text-rp{
+    --bs-text-opacity: 1;
+    color: $indexColor;
+    }
+    #menu a, button{
+    font-size: 18px !important;
+    font-weight: 600;
+    color:#3f3f3f;
+    }
+    .d-rp{
+    flex-direction: row;
+    }
+    
+    /* SLIDER */
+    .carousel-inner {
+    max-height:39rem !important;
+    }

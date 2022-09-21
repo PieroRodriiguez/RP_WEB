@@ -1,0 +1,23 @@
+/* GLOBAL */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+@import "variables";
+
+@import "index";
+
+@import "article";
+
+@import "staff";
+
+@import "shop";
+
+@import "contact";
+
+@import "footer";
+
+@import "mediaqueries";
