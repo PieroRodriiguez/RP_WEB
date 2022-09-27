@@ -1,6 +1,5 @@
 /* FOOTER */
 footer {
-background: $footerColor;
 min-height: 100px;;
     p{
     color: $footerpColor;
@@ -11,4 +10,17 @@ min-height: 100px;;
 font-size: 26px;
 padding: 0 8px;
 color: $footerpColor;
+}
+
+// Maps //
+
+$redes:(
+    footerI: #1b2a4e,
+    footerN: #2b0078
+);
+
+@each $red, $color in $redes{
+    .btn--#{$red}{
+        background-color: $color;
+    }
 }

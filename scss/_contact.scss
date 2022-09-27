@@ -18,11 +18,16 @@ background: #fbfafa;
 border-radius:5px;
 }
 
-.img-ayuda{
-margin-top: 15%;
-margin-left: 120px;
+// Mixins con parametros //
+@mixin sizes($margin-left, $margin-top) {
+    margin-top: $margin-top;
+    margin-left: $margin-left;
 }
+
+.img-ayuda{
+    @include sizes(120px, 15%);
+}
+
 .img-ayuda-1{
-margin-top: -45%;
-margin-left: 1020px;
+    @include sizes(1020px, -45%);
 }

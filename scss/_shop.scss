@@ -1,8 +1,16 @@
 /* SHOP/TIENDA */
-.columns {
-float: left;
-width: 33.3%;
-padding: 8px;
+
+// maps-get //
+$columns:(
+    flotar: left,
+    ancho: 33.3%,
+    relleno: 8px
+);
+
+.columns{
+    float: map-get($columns, flotar);
+    width: map-get($columns, ancho);
+    padding: map-get($columns, relleno);
 }
 
 .price {
@@ -43,7 +51,16 @@ text-align: center;
 text-decoration: none;
 font-size: 18px;
 }
+// extend //
+.botonAceptar{
+    @extend .buttons;
+    background-color: green;
+}
 
+.botonCancelar{
+    @extend .buttons;
+    background-color: red;
+}
 a:hover {
 color: white;
 }

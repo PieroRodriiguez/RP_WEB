@@ -186,7 +186,7 @@ body {
     background-color: #eee;
     font-size: 20px; }
 
-.buttons {
+.buttons, .botonAceptar, .botonCancelar {
   background-color: #04AA6D;
   border: none;
   color: white;
@@ -194,6 +194,12 @@ body {
   text-align: center;
   text-decoration: none;
   font-size: 18px; }
+
+.botonAceptar {
+  background-color: green; }
+
+.botonCancelar {
+  background-color: red; }
 
 a:hover {
   color: white; }
@@ -225,7 +231,6 @@ a:hover {
 
 /* FOOTER */
 footer {
-  background: #1b2a4e;
   min-height: 100px; }
   footer p {
     color: #f3f3f3;
@@ -235,6 +240,12 @@ footer {
   font-size: 26px;
   padding: 0 8px;
   color: #f3f3f3; }
+
+.btn--footerI {
+  background-color: #1b2a4e; }
+
+.btn--footerN {
+  background-color: #2b0078; }
 
 /* MEDIA QUERIES PANTALLA ANCHA */
 @media (max-width: 1200px) {
